@@ -53,13 +53,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3d8eb9"
+              "background-color": "#7e9b9f"
             },
             ".link, .dropdown-item": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".link": {
               "font-size": "0.9rem"
@@ -71,16 +71,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#54e76e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#74eb89!important"
+              "background": "#090a0c!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#81ed94"
+              "background": "#101115"
             },
             ".bg-color.transparent .link": {
-              "color": "#3d8eb9",
+              "color": "#7e9b9f",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -96,10 +96,10 @@
           "_name": "ext.menu",
           "_anchor": "index-ext_menu-0",
           "_params": {
-            "bgColor": "#81ed94",
+            "bgColor": "#101115",
             "fontSize": "0.9",
             "fontName": {},
-            "fontColor": "#3d8eb9",
+            "fontColor": "#7e9b9f",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -123,7 +123,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-warning\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JON DE BRUYN<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_name": "buttons1",
@@ -136,35 +136,26 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\">DOWNLOAD FOR MAC</a>"
         },
         {
-          "_name": "header1",
           "_styles": {
-            ".mbr-section-title": {
-              "color": "#f28281"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
             }
           },
-          "_anchor": "index-header1-1",
+          "_name": "header3",
+          "_anchor": "index-header3-0",
           "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
-            "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/omslag-2000x1111-17.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#4c4e51",
+            "showMeta": true
           },
-          "title": "JON DE BRUYN<br><br><br><br><br>",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">BEKIJK WERK</a> "
+          "title": "Jon De Bruyn",
+          "meta": "Student Schilderkunt, Luca School af Arts Gent.<br>"
         },
         {
           "_name": "footer1",
@@ -182,6 +173,63 @@
             "overlayColor": "#444444"
           },
           "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\"><img alt=\"Creative Commons License\" src=\"https://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png\"></a><br>This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.<br>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".btn": {
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            },
+            ".lead P": {
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "72px",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box8",
+          "_anchor": "index-msg-box8-0",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "5",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/OMSLAG_BREED_2.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#5e5e5e",
+            "showTitle": false,
+            "showText": false,
+            "showButton": false
+          },
+          "title": "ARTICLE HEADER",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Bekijk Werk</a>"
+        },
+        {
+          "_name": "buttons1",
+          "_anchor": "index-buttons1-1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Bekijk Werk</a> ",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            }
+          }
         }
       ]
     },
@@ -202,13 +250,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3d8eb9"
+              "background-color": "#7e9b9f"
             },
             ".link, .dropdown-item": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".link": {
               "font-size": "0.9rem"
@@ -220,16 +268,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#54e76e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#74eb89!important"
+              "background": "#090a0c!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#81ed94"
+              "background": "#101115"
             },
             ".bg-color.transparent .link": {
-              "color": "#3d8eb9",
+              "color": "#7e9b9f",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -245,10 +293,10 @@
           "_name": "ext.menu",
           "_anchor": "page1-ext_menu-0",
           "_params": {
-            "bgColor": "#81ed94",
+            "bgColor": "#101115",
             "fontSize": "0.9",
             "fontName": {},
-            "fontColor": "#3d8eb9",
+            "fontColor": "#7e9b9f",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -272,13 +320,19 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-warning\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JON DE BRUYN<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            }
+          },
           "_anchor": "page1-features3-0",
           "_params": {
-            "paddingTop": "4",
+            "paddingTop": "3",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
@@ -292,16 +346,16 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": "4",
+            "columns": "2",
             "showImages": true,
-            "showTitles": true,
+            "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
             "showButtons": false
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/1-600x340-35.jpg",
+              "src": "@PROJECT_PATH@/assets/images/2015-2016-600x314-52.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -311,17 +365,17 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "Objecten",
+          "title1": "2015-2016<br>",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/3-600x340-75.jpg",
+              "src": "@PROJECT_PATH@/assets/images/2016-2017-600x314-2.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "page3.html",
+              "link": "page4.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -343,7 +397,7 @@
               "linkInNewWindow": false
             }
           },
-          "title3": "Aquarium&nbsp;<br><br>",
+          "title3": "2016-2017<br><br>",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -418,18 +472,21 @@
               "text-align": "center"
             },
             "H3": {
-              "color": "#000000"
+              "color": "#85878b",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "36px"
             }
           },
           "_name": "header3",
           "_anchor": "page2-header3-0",
           "_params": {
-            "paddingTop": "6",
-            "paddingBottom": 1,
-            "bgColor": "#a0a5a6",
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#4c4e51",
             "showMeta": false
           },
-          "title": "Objecten",
+          "title": "2015-2016<br>",
           "meta": ""
         },
         {
@@ -444,13 +501,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3d8eb9"
+              "background-color": "#7e9b9f"
             },
             ".link, .dropdown-item": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".link": {
               "font-size": "0.9rem"
@@ -462,16 +519,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#54e76e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#74eb89!important"
+              "background": "#090a0c!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#81ed94"
+              "background": "#101115"
             },
             ".bg-color.transparent .link": {
-              "color": "#3d8eb9",
+              "color": "#7e9b9f",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -487,10 +544,10 @@
           "_name": "ext.menu",
           "_anchor": "page2-ext_menu-0",
           "_params": {
-            "bgColor": "#81ed94",
+            "bgColor": "#101115",
             "fontSize": "0.9",
             "fontName": {},
-            "fontColor": "#3d8eb9",
+            "fontColor": "#7e9b9f",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -514,17 +571,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-warning\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JON DE BRUYN<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
-        },
-        {
-          "_name": "content1",
-          "_anchor": "page2-content1-0",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 1,
-            "bgColor": "#caf7ee"
-          },
-          "text": "<p>In de afgebeelde objecten wordt duidelijk dat functionaliteit een belangrijke rol speelt, echter zijn dit pseudo-producten. Mede door invloeden uit mechanica en wiskunde, wordt gepoogd nieuwe objecten te ontwerpen die los komen van een logisch bestaansrecht. De beelden spelen in op een tijd waarin consumptie en kapitalisme overheersen. Nieuwe behoeftes worden opgedrongen met het oog op vooruitgang en comfort.</p>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -534,12 +581,12 @@
             "paddingBottom": "1",
             "images": [
               {
-                "tags": "Awesome",
+                "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1-2000x1134-85-2000x1134-86.jpg",
-                "image": "@PROJECT_PATH@/assets/images/1-2000x1134-85.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwp1-4711x2672-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwp1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -548,48 +595,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2-2000x1134-45-2000x1134-70.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2-2000x1134-45.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/3-2000x1134-14-2000x1134-41.jpg",
-                "image": "@PROJECT_PATH@/assets/images/3-2000x1134-14.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/4-2000x1134-58-2000x1134-55.jpg",
-                "image": "@PROJECT_PATH@/assets/images/4-2000x1134-58.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7-2000x1134-3-2000x1134-57.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7-2000x1134-3.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/8-2000x1134-87-2000x1134-4.jpg",
-                "image": "@PROJECT_PATH@/assets/images/8-2000x1134-87.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp2-4711x2672-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp2.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -598,8 +605,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/afb9-2000x1134-59-2000x1134-78.jpg",
-                "image": "@PROJECT_PATH@/assets/images/afb9-2000x1134-59.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp3-4711x2672-39.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp3.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -608,22 +615,102 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2-2000x1134-66-2000x1134-35.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2-2000x1134-66.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp5-4711x2672-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp5.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp6-4711x2672-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp6.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp7-4711x2672-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp7.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/toren2-1-4711x2672-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Toren2_1.jpg",
                 "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp8-4711x2672-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp8.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3dobj-4711x2672-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3Dobj.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp9-4711x2672-9.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp9.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/toren1-1-4711x2672-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/toren1_1.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
-            "spacing": "1",
+            "spacing": "3",
             "showText": false,
             "filter": false,
             "bgColor": "#ffffff",
             "filterBgColor": false,
-            "fullWidth": true,
+            "fullWidth": false,
             "showBullets": true
           },
           "_anchor": "page2-gallery2-0",
           "articleLayout": false
+        },
+        {
+          "_name": "buttons1",
+          "_anchor": "page2-buttons1-0",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#878e8f"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Schetsen<br></a> "
         },
         {
           "_name": "footer1",
@@ -655,18 +742,21 @@
               "text-align": "center"
             },
             "H3": {
-              "color": "#000000"
+              "color": "#a6a6a6",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "36px"
             }
           },
           "_name": "header3",
           "_anchor": "page3-header3-0",
           "_params": {
-            "paddingTop": "6",
-            "paddingBottom": 1,
-            "bgColor": "#a0a5a6",
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#4c4e51",
             "showMeta": false
           },
-          "title": "Toren",
+          "title": "Schetsen 2015-2016",
           "meta": "By John Smith posted July 20, 2016"
         },
         {
@@ -681,13 +771,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3d8eb9"
+              "background-color": "#7e9b9f"
             },
             ".link, .dropdown-item": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".link": {
               "font-size": "0.9rem"
@@ -699,16 +789,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#54e76e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#74eb89!important"
+              "background": "#090a0c!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#81ed94"
+              "background": "#101115"
             },
             ".bg-color.transparent .link": {
-              "color": "#3d8eb9",
+              "color": "#7e9b9f",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -724,10 +814,10 @@
           "_name": "ext.menu",
           "_anchor": "page3-ext_menu-0",
           "_params": {
-            "bgColor": "#81ed94",
+            "bgColor": "#101115",
             "fontSize": "0.9",
             "fontName": {},
-            "fontColor": "#3d8eb9",
+            "fontColor": "#7e9b9f",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -751,17 +841,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-warning\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JON DE BRUYN<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
-        },
-        {
-          "_name": "content1",
-          "_anchor": "page3-content1-0",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 1,
-            "bgColor": "#d3eef2"
-          },
-          "text": "<p>Torens en wolkenkrabbers bieden vele mogelijkheden, ze stralen macht, vooruitgang en groei uit. De voorgestelde toren bestaat uit verschillende eenvoudige modules. De \"k<span style=\"font-size: 1.07rem; line-height: 1.5;\">lant\" kan de volgorde, de kleur en het type van module kiezen. Door het mogelijk maken van oneindige opeenstapeling is de groei onbeperkt. Met een enigzins naïef optimisme, uit de toren zich als 'het allerhoogste gebouw' ooit.</span></p>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -775,90 +855,40 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6-2000x1134-33-2000x1134-55.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6-2000x1134-33.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets1-4711x2672-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets2-4711x2672-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets2.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets-3-4711x2672-86.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets-3.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets4-4711x2672-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets4.jpg",
                 "caption": "Type caption here",
                 "active": true
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/8-2000x1134-90-2000x1134-19.jpg",
-                "image": "@PROJECT_PATH@/assets/images/8-2000x1134-90.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/5-2000x1134-57-2000x1134-87.jpg",
-                "image": "@PROJECT_PATH@/assets/images/5-2000x1134-57.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/11-2000x1134-64-2000x1134-55.jpg",
-                "image": "@PROJECT_PATH@/assets/images/11-2000x1134-64.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7-2000x1134-40-2000x1134-20.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7-2000x1134-40.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/9-2000x1134-4-2000x1134-82.jpg",
-                "image": "@PROJECT_PATH@/assets/images/9-2000x1134-4.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/10-2000x1134-48-2000x1134-63.jpg",
-                "image": "@PROJECT_PATH@/assets/images/10-2000x1134-48.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/4-2000x1134-33-2000x1134-76.jpg",
-                "image": "@PROJECT_PATH@/assets/images/4-2000x1134-33.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/3-2000x1134-18-2000x1134-25.jpg",
-                "image": "@PROJECT_PATH@/assets/images/3-2000x1134-18.jpg",
-                "caption": "Type caption here",
-                "active": false
               }
             ],
             "spacing": "1",
@@ -891,204 +921,7 @@
         }
       ]
     },
-    "page4.html": {
-      "settings": {
-        "order": 5
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#000000"
-            }
-          },
-          "_name": "header3",
-          "_anchor": "page4-header3-0",
-          "_params": {
-            "paddingTop": "6",
-            "paddingBottom": 1,
-            "bgColor": "#a0a5a6",
-            "showMeta": false
-          },
-          "title": "Aquarim",
-          "meta": "By John Smith posted July 20, 2016"
-        },
-        {
-          "_inherit": "menu",
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".navbar-toggler": {
-              "color": "#3d8eb9"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#3d8eb9"
-            },
-            ".link, .dropdown-item": {
-              "color": "#3d8eb9"
-            },
-            ".link": {
-              "font-size": "0.9rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.975rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#54e76e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#74eb89!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#81ed94"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#3d8eb9",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#06f6ff!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "page4-ext_menu-0",
-          "_params": {
-            "bgColor": "#81ed94",
-            "fontSize": "0.9",
-            "fontName": {},
-            "fontColor": "#3d8eb9",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-warning\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JON DE BRUYN<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
-        },
-        {
-          "_name": "content1",
-          "_anchor": "page4-content1-0",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 1,
-            "bgColor": "#ccecf1"
-          },
-          "text": "Een begrensde ruimte is vastgelegd. Een flexibele invulling van deze ruimte is mogelijk doormiddel van een achtergrond, ondergrond en objecten die zich in de ruimte bevinden. Door de ruimte in te delen ontstaan nieuwe mogelijkheden en, soms schijnbaar, nieuwe situaties. Dit geheel presenteerd zich als een leefwereld, die een zo leuk mogelijke ervaring poogt te creëren, voor zowel de vis als de toeschouwer."
-        },
-        {
-          "_inherit": "gallery1",
-          "_name": "gallery2",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 4,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/rendera-2000x1125-88-2000x1125-78.jpg",
-                "image": "@PROJECT_PATH@/assets/images/rendera-2000x1125-88.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ring-2000x1125-62-2000x1125-91.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ring-2000x1125-62.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1-2000x1354-69-2000x1354-53.png",
-                "image": "@PROJECT_PATH@/assets/images/1-2000x1354-69.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/untitled-1-2000x1356-53-2000x1356-67.jpg",
-                "image": "@PROJECT_PATH@/assets/images/untitled-1-2000x1356-53.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": "1",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
-          },
-          "_anchor": "page4-gallery2-0",
-          "articleLayout": false
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "index-footer1-0",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\"><img alt=\"Creative Commons License\" src=\"https://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png\"></a><br>This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.<br>"
-        }
-      ]
-    },
-    "page5.html": {
+    "page6.html": {
       "settings": {
         "order": 7
       },
@@ -1105,13 +938,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3d8eb9"
+              "background-color": "#7e9b9f"
             },
             ".link, .dropdown-item": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".link": {
               "font-size": "0.9rem"
@@ -1123,16 +956,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#54e76e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#74eb89!important"
+              "background": "#090a0c!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#81ed94"
+              "background": "#101115"
             },
             ".bg-color.transparent .link": {
-              "color": "#3d8eb9",
+              "color": "#7e9b9f",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1146,12 +979,12 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "page5-ext_menu-0",
+          "_anchor": "page6-ext_menu-0",
           "_params": {
-            "bgColor": "#81ed94",
+            "bgColor": "#101115",
             "fontSize": "0.9",
             "fontName": {},
-            "fontColor": "#3d8eb9",
+            "fontColor": "#7e9b9f",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -1175,7 +1008,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-warning\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JON DE BRUYN<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_name": "contacts4",
@@ -1191,14 +1024,14 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
-          "_anchor": "page5-contacts4-0",
+          "_anchor": "page6-contacts4-0",
           "_params": {
             "paddingTop": "4",
             "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#201f26",
+            "bgColor": "#3d3d3d",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1235,10 +1068,27 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Verzenden<br></a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "page6-footer1-0",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\"><img alt=\"Creative Commons License\" src=\"https://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png\"></a><br>This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.<br>"
         }
       ]
     },
-    "page6.html": {
+    "page5.html": {
       "settings": {
         "order": 6
       },
@@ -1249,18 +1099,21 @@
               "text-align": "center"
             },
             "H3": {
-              "color": "#000000"
+              "color": "#a6a6a6",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "36px"
             }
           },
           "_name": "header3",
-          "_anchor": "page6-header3-0",
+          "_anchor": "page7-header3-0",
           "_params": {
-            "paddingTop": "6",
-            "paddingBottom": 1,
-            "bgColor": "#a0a5a6",
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#4c4e51",
             "showMeta": false
           },
-          "title": "Andere<br>",
+          "title": "Schetsen 2016-2017",
           "meta": "By John Smith posted July 20, 2016"
         },
         {
@@ -1275,13 +1128,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3d8eb9"
+              "background-color": "#7e9b9f"
             },
             ".link, .dropdown-item": {
-              "color": "#3d8eb9"
+              "color": "#7e9b9f"
             },
             ".link": {
               "font-size": "0.9rem"
@@ -1293,16 +1146,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#54e76e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#74eb89!important"
+              "background": "#090a0c!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#81ed94"
+              "background": "#101115"
             },
             ".bg-color.transparent .link": {
-              "color": "#3d8eb9",
+              "color": "#7e9b9f",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1316,12 +1169,12 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "page6-ext_menu-0",
+          "_anchor": "page7-ext_menu-0",
           "_params": {
-            "bgColor": "#81ed94",
+            "bgColor": "#101115",
             "fontSize": "0.9",
             "fontName": {},
-            "fontColor": "#3d8eb9",
+            "fontColor": "#7e9b9f",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -1345,62 +1198,52 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-warning\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JON DE BRUYN<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
-        },
-        {
-          "_name": "content1",
-          "_anchor": "page6-content1-0",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 1,
-            "bgColor": "#bde3e9"
-          },
-          "text": "Een begrensde ruimte is vastgelegd. Een flexibele invulling van deze ruimte is mogelijk doormiddel van een achtergrond, ondergrond en objecten die zich in de ruimte bevinden. Door de ruimte in te delen ontstaan nieuwe mogelijkheden en, soms schijnbaar, nieuwe situaties. Dit geheel presenteerd zich als een leefwereld, die een zo leuk mogelijke ervaring poogt te creëren, voor zowel de vis als de toeschouwer."
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_inherit": "gallery1",
           "_name": "gallery2",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": 4,
+            "paddingBottom": "1",
             "images": [
               {
-                "tags": "Awesome",
+                "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/rendera-2000x1125-88-2000x1125-78.jpg",
-                "image": "@PROJECT_PATH@/assets/images/rendera-2000x1125-88.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets1-4711x2672-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ring-2000x1125-62-2000x1125-91.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ring-2000x1125-62.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets2-4711x2672-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets2.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Creative",
+                "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1-2000x1354-69-2000x1354-53.png",
-                "image": "@PROJECT_PATH@/assets/images/1-2000x1354-69.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schets-3-4711x2672-86.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets-3.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/untitled-1-2000x1356-53-2000x1356-67.jpg",
-                "image": "@PROJECT_PATH@/assets/images/untitled-1-2000x1356-53.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets4-4711x2672-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets4.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -1413,12 +1256,282 @@
             "fullWidth": true,
             "showBullets": true
           },
-          "_anchor": "page6-gallery2-0",
+          "_anchor": "page7-gallery2-0",
           "articleLayout": false
         },
         {
           "_name": "footer1",
-          "_anchor": "page6-footer1-0",
+          "_anchor": "page7-footer1-0",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\"><img alt=\"Creative Commons License\" src=\"https://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png\"></a><br>This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.<br>"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#85878b",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "36px"
+            }
+          },
+          "_name": "header3",
+          "_anchor": "page7-header3-0",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#4c4e51",
+            "showMeta": false
+          },
+          "title": "2016-2017<br>",
+          "meta": ""
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#7e9b9f"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#7e9b9f"
+            },
+            ".link, .dropdown-item": {
+              "color": "#7e9b9f"
+            },
+            ".link": {
+              "font-size": "0.9rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.975rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#090a0c!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#101115"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#7e9b9f",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#06f6ff!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "page7-ext_menu-0",
+          "_params": {
+            "bgColor": "#101115",
+            "fontSize": "0.9",
+            "fontName": {},
+            "fontColor": "#7e9b9f",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-warning\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JON DE BRUYN<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WERK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">CONTACT<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwp1-4711x2672-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwp1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp2-4711x2672-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp2.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp3-4711x2672-39.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp3.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp5-4711x2672-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp5.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp6-4711x2672-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp6.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp7-4711x2672-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp7.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/toren2-1-4711x2672-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Toren2_1.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp8-4711x2672-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp8.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3dobj-4711x2672-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3Dobj.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vrwrp9-4711x2672-9.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Vrwrp9.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/toren1-1-4711x2672-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/toren1_1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": "3",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#ffffff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "page7-gallery2-0",
+          "articleLayout": false
+        },
+        {
+          "_name": "buttons1",
+          "_anchor": "page7-buttons1-0",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#878e8f"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">Schetsen<br></a> "
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "page7-footer1-0",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
