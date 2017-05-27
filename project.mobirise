@@ -150,7 +150,7 @@
           "_anchor": "index-header3-0",
           "_params": {
             "paddingTop": "2",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#4c4e51",
             "showMeta": true
           },
@@ -214,6 +214,25 @@
           "title": "ARTICLE HEADER",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Bekijk Werk</a>"
+        },
+        {
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "color": "#85878b",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "15px",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "index-content1-0",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#4c4e51"
+          },
+          "text": "Het werk ontstaat meestal vanuit observaties en bedenkingen betreft de ruimte en tijd waarin we ons bevinden. Op basis van persoonlijke interesses worden onderwerpen hieromtrent aangehaald (zoals consumptie, ruimtelijke planning, artificiële werelden, technologie en mechanica, zich nuttig voelen, entertainment …). Veelal toont het werk een positieve relatie met deze onderwerpen, echter komen vanuit dit (soms gespeeld naÏeve) enthousiasme al snel kritische bedenkingen op. In de meeste gevallen kan het werk gezien worden als een afbeelding die de toeschouwer een bepaalde gedachtengang aanbiedt om verder over na te denken.&nbsp;"
         },
         {
           "_name": "buttons1",
@@ -1372,8 +1391,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/schets1-4711x2672-2.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Schets1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetsaq1-4711x2672-80.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsAQ1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1382,8 +1401,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/schets2-4711x2672-0.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Schets2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetsaq6-4711x2672-7.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsAQ6.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1392,8 +1411,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/schets-3-4711x2672-86.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Schets-3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetsaq3-4711x2672-35.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsAQ3.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1402,8 +1421,38 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/schets4-4711x2672-17.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Schets4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetsaq4-4711x2672-35.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsAQ4.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetsaq2-4711x2672-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsAQ2.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetsaq7-4711x2672-87.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsAQ7.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetsaq5-4711x2672-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsAQ5.jpg",
                 "caption": "Type caption here",
                 "active": true
               }

@@ -12,6 +12,7 @@
 
 
 
+
 #index-ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -93,6 +94,12 @@
   font-family: 'Merriweather', serif;
   font-size: 72px;
   color: #ffffff;
+}
+#index-content1-0 DIV {
+  color: #85878b;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  text-align: left;
 }
 #index-buttons1-1 .btn {
   font-family: 'Merriweather', serif;
