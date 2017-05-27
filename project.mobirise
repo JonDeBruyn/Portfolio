@@ -217,19 +217,19 @@
         },
         {
           "_name": "buttons1",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            }
+          },
           "_anchor": "index-buttons1-1",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Bekijk Werk</a> ",
-          "_styles": {
-            ".btn": {
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Bekijk Werk</a> "
         }
       ]
     },
@@ -691,12 +691,12 @@
                 "active": false
               }
             ],
-            "spacing": "3",
+            "spacing": "1",
             "showText": false,
             "filter": false,
             "bgColor": "#ffffff",
             "filterBgColor": false,
-            "fullWidth": false,
+            "fullWidth": true,
             "showBullets": true
           },
           "_anchor": "page2-gallery2-0",
@@ -875,6 +875,16 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets21-4711x2672-99.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets21.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/schets-3-4711x2672-86.jpg",
                 "image": "@PROJECT_PATH@/assets/images/Schets-3.jpg",
                 "caption": "Type caption here",
@@ -888,7 +898,157 @@
                 "thumb": "@PROJECT_PATH@/assets/images/schets4-4711x2672-17.jpg",
                 "image": "@PROJECT_PATH@/assets/images/Schets4.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets7-4711x2672-48.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets7.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets6-4711x2672-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets6.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets8-4711x2672-88.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets8.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets19-4711x2672-39.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets19.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets10-4711x2672-63.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets10.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets12-4711x2672-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets12.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets11-4711x2672-39.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets11.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets9-4711x2672-33.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets9.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets13-4711x2672-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets13.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets23-4711x2672-97.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets23.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets14-4711x2672-58.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets14.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets16-4711x2672-94.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets16.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets22-4711x2672-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets22.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets17-4711x2672-69.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets17.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schets20-1-4711x2672-57.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schets20_1.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
             "spacing": "1",
@@ -1402,8 +1562,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwp1-4711x2672-27.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwp1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-goudvis-4711x2672-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-goudvis.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1412,8 +1572,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwrp2-4711x2672-77.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwrp2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2-aq1-4711x2672-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2-Aq1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1422,8 +1582,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwrp3-4711x2672-39.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwrp3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-raket1-4711x2672-55.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-Raket1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1432,38 +1592,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwrp5-4711x2672-47.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwrp5.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwrp6-4711x2672-56.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwrp6.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwrp7-4711x2672-49.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwrp7.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/toren2-1-4711x2672-6.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Toren2_1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3daq1-4711x2672-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3Daq1.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
@@ -1472,8 +1602,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwrp8-4711x2672-28.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwrp8.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-maaier1-4711x2672-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-Maaier1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1482,8 +1612,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/3dobj-4711x2672-0.jpg",
-                "image": "@PROJECT_PATH@/assets/images/3Dobj.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7-huisjes1-4711x2672-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7-Huisjes1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1492,8 +1622,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwrp9-4711x2672-9.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwrp9.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3daq2-4711x2672-24.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3Daq2.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1502,18 +1632,38 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/toren1-1-4711x2672-92.jpg",
-                "image": "@PROJECT_PATH@/assets/images/toren1_1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5-raket2-4711x2672-86.jpg",
+                "image": "@PROJECT_PATH@/assets/images/5-Raket2.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6-maaier2-4711x2672-70.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6-Maaier2.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3daq4-4711x2672-41.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3Daq4.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
             ],
-            "spacing": "3",
+            "spacing": "1",
             "showText": false,
             "filter": false,
             "bgColor": "#ffffff",
             "filterBgColor": false,
-            "fullWidth": false,
+            "fullWidth": true,
             "showBullets": true
           },
           "_anchor": "page7-gallery2-0",
