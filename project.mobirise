@@ -1431,6 +1431,46 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetshuis1-4711x2672-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsHuis1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetshuis2-4711x2672-58.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsHuis2.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetshuis3-4711x2672-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/SchetsHuis3.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schetsen1-4711x2672-3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Schetsen1.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/schetsaq2-4711x2672-6.jpg",
                 "image": "@PROJECT_PATH@/assets/images/SchetsAQ2.jpg",
                 "caption": "Type caption here",
@@ -1464,7 +1504,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/huizenschets1-4711x2672-14.jpg",
                 "image": "@PROJECT_PATH@/assets/images/Huizenschets1.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": "1",
