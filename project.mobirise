@@ -637,17 +637,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/vrwrp5-4711x2672-47.jpg",
                 "image": "@PROJECT_PATH@/assets/images/Vrwrp5.jpg",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vrwrp6-4711x2672-56.jpg",
-                "image": "@PROJECT_PATH@/assets/images/Vrwrp6.jpg",
-                "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -667,7 +657,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/toren2-1-4711x2672-6.jpg",
                 "image": "@PROJECT_PATH@/assets/images/Toren2_1.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -1671,38 +1661,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2-aq1-4711x2672-68.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2-Aq1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/3-raket1-4711x2672-55.jpg",
-                "image": "@PROJECT_PATH@/assets/images/3-Raket1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/3daq1-4711x2672-68.jpg",
                 "image": "@PROJECT_PATH@/assets/images/3Daq1.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/4-maaier1-4711x2672-47.jpg",
-                "image": "@PROJECT_PATH@/assets/images/4-Maaier1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1731,30 +1691,20 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/5-raket2-4711x2672-86.jpg",
-                "image": "@PROJECT_PATH@/assets/images/5-Raket2.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6-maaier2-4711x2672-70.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6-Maaier2.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/3daq4-4711x2672-41.jpg",
                 "image": "@PROJECT_PATH@/assets/images/3Daq4.jpg",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kleinwerk17-4711x2672-72.jpg",
+                "image": "@PROJECT_PATH@/assets/images/KLEINWERK17.jpg",
+                "caption": "Type caption here",
+                "active": true
               }
             ],
             "spacing": "1",
