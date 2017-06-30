@@ -1671,16 +1671,6 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7-huisjes1-4711x2672-89.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7-Huisjes1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/3daq2-4711x2672-24.jpg",
                 "image": "@PROJECT_PATH@/assets/images/3Daq2.jpg",
                 "caption": "Type caption here",
@@ -1701,8 +1691,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kleinwerk17-4711x2672-72.jpg",
-                "image": "@PROJECT_PATH@/assets/images/KLEINWERK17.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7-huisjes1-4711x2672-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7-Huisjes1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kleinwerk2017-4711x2672-79.jpg",
+                "image": "@PROJECT_PATH@/assets/images/Kleinwerk2017.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
